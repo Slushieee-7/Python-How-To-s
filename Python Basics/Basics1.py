@@ -49,6 +49,9 @@ print ("Part 8A:", a, " is a ", type(a))
 print ("Part 8B:", b, " is a ", type(b))
 print ("Part 8C:", c, " is a ", type(c)) #puts the two numbers, 9 and 3.14, into one parentheses then adds a "j" at the end of the last nnumber
 
+#to generate random numbers
+import random #import the library
+print("Part 9 (Random Numbers):",random.randrange(1, 20)) #prints a random number from 1-20
 
 
 
