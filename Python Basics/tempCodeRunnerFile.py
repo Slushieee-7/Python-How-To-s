@@ -1,7 +1,23 @@
-#continue statements (or when u want to skip a value)
-c = 0
-while c < 10:
-    c += 1
-    if c % 2:
-        continue #this would skip the value of c if it is even
-    print(c) #this would only print the even values of c
+#using dictionary mapping (which are defining each cases possible)
+def letter_a():
+    return "A"
+def letter_b():
+    return "B"
+def letter_c():
+    return "C"
+def letter_d():
+    return "D"
+def default():
+    return "Unknown letter"
+
+def dict(value):
+    switcher = {
+        1: letter_a,
+        2: letter_b,
+        3: letter_c,
+    }
+    # Get the function from switcher dictionary
+    return switcher.get(value, default)()
+    # Execute the function
+
+print(dict(2)) #outputs the function of letter_b which is "B"
