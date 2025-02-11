@@ -39,3 +39,18 @@ def dict(value):
 
 print("The letter in that number is:", dict(2)) #outputs the function of letter_b which is "B"
 
+#lastly, if ur python's version is 3.10+, u can freely use a switch case statement
+def switch(value):
+    match value:
+        case 1:
+            return "One"
+        case 2:
+            return "Two"
+        case 3:
+            return "Three"
+        case _:
+            return "Unknown value"
+        
+
+result = switch(3) #which would output "Three"
+print(result)
