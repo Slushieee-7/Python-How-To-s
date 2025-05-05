@@ -1,0 +1,1 @@
+min = int(input("Enter the number of minutes: "))
