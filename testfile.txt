@@ -1,0 +1,4 @@
+Name 	Age 	City 	School 	Course 	
+rey 	20 		carmen 	feua 	bscsse
+joshua 	20 		carmen 	smis 	bscsse
+yoshi 	20 		carmen 	loa 	bscsse
