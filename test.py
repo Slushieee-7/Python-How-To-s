@@ -1,13 +1,16 @@
-import os
-if os.path.isfile("myFiIe.txt"):
+alph = "abcdefghijklmnopqrstuvwxyz"
 
-  file = open("’myFile.txt")
+alph[3:15]
+alph[3:15:3]
+alph[3:15:-3]
+alph[15:3:-3]
+alph[15:3]
+alph[::-3]
 
-print(fiIe.read())
+print(alph[3:15])  # 'defghijklmno'
+print(alph[3:15:3])  # 'dfhjln'
+print(alph[3:15:-3])        # ''
+print(alph[15:3:-3])  # 'onmlkjihgfd'
+print(alph[15:3])  # ''
+print(alph[::-3])  # 'zyxwvutsrqponmlkjihgfedcba'
 
-  file.close()
-file= 
-open(‘myFile.txt’, ‘w+’)
-
-
-file.add(“End of listing”)
